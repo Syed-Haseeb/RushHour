@@ -108,7 +108,7 @@ public class Game extends Activity {
 
 
         //Temporarily removed
-        gamePanel.setVisibility(View.INVISIBLE);
+        gamePanel.setVisibility(View.VISIBLE);
 
         //show PauseButton
         PauseButton.setVisibility(View.VISIBLE);

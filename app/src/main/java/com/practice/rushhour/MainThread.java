@@ -30,7 +30,7 @@ public class MainThread extends Thread {
         //infinite loop
         while (_running){
 
-            if(!(_gamePanel.Pause_game)){
+           // if(!(_gamePanel.Pause_game)){
 
                 long StartDraw = System.currentTimeMillis();
 
@@ -55,6 +55,6 @@ public class MainThread extends Thread {
                 deltaTime = (float) EndDraw - StartDraw;
             }
 
-        }
+        //}
     }
 }
